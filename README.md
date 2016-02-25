@@ -56,6 +56,7 @@ Before continuing with the tutorial, remove the secret key string provided by dj
     #Write and Quit Vim
 
     source env.sh
+    export SECRETKEY
 
 Edit secret key string in mysite/settings.py according to the following
 
