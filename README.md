@@ -8,7 +8,7 @@ Run on Ubuntu
 
     git clone https://github.com/NTBlok/django_tutorial.git
 
-Follow tutorial at url above to create directories and files identical to ./my_django_tutorial/* 
+Follow tutorial at url above to create directories and files identical to mysite directory
 
 For part 1 the following shell commands are executed:
 
