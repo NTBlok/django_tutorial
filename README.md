@@ -3,6 +3,7 @@
 Starting from Ubuntu Server 14.04 LTS
 
 Setup server and verify django version installed
+
     ./setup.sh
     django-admin --version
 1.9.2
