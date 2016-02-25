@@ -14,6 +14,12 @@ For part 1 the following shell commands are executed:
 
     ./part_1.sh
 
+Preview run:
+
+    python manage.py runserver 0.0.0.0:8000
+
+Edit mysite/polls/views.py
+
 Remove secret key from settings.py and store it as environmental variable in env.sh file outside of project directory
 
     cd ../
@@ -23,7 +29,4 @@ For part 2 shell commands are:
 
     ./part_2.sh
 
-To preview run:
-
-    python manage.py runserver 0.0.0.0:8000
 
