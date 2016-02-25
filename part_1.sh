@@ -6,3 +6,6 @@ django-admin startproject mysite
 cd mysite
 python manage.py startapp polls
 
+# Create URLconf in polls directory to call views
+cd polls
+touch urls.py
