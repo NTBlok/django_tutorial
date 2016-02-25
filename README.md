@@ -1,9 +1,10 @@
 ## DJANGO Tutorial: https://docs.djangoproject.com
 
-Run on Ubuntu
-    
-    django-admin --version
+Starting from Ubuntu Server 14.04 LTS
 
+Setup server and verify django version installed
+    ./setup.sh
+    django-admin --version
 1.9.2
 
     git clone https://github.com/NTBlok/django_tutorial.git
