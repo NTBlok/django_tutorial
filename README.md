@@ -26,6 +26,7 @@ Start development server and preview at http://localhost:8000
     python manage.py runserver 0.0.0.0:8000
 
 Edit the follwing files as directed in https://docs.djangoproject.com/en/1.9/intro/tutorial01/
+
 1) To create a view:
 
     vim mysite/polls/views.py
@@ -63,6 +64,7 @@ Edit secret key string in mysite/settings.py according to the following
 
 
 Edit the follwing files as directed in https://docs.djangoproject.com/en/1.9/intro/tutorial02/
+
 1) To create models (e.g., database layout and metadata)
 
     vim polls/models.py
