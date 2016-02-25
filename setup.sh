@@ -35,6 +35,7 @@ echo "set shiftwidth=4" >> ~/.vimrc
 echo "set cursorline" >> ~/.vimrc
 echo "set showmatch" >> ~/.vimrc
 echo "let python_highlight_all = 1" >> ~/.vimrc
+#echo "Plugin 'mxw/vim-jsx'" >> ~/.vimrc
 cd ~/.vim/bundle
 git clone git://github.com/tpope/vim-sensible.git
 git clone https://github.com/scrooloose/nerdtree.git
