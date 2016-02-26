@@ -79,7 +79,7 @@ Shell commands with comments
 
     ./part_2.sh
 
-Play with API using django interactive shell (uses ipython, if installed)
+Play with API using django interactive shell (defaults to use ipython, if installed)
 
     python manage.py shell
 
