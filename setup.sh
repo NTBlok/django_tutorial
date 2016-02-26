@@ -13,6 +13,9 @@ sudo apt-get install python-virtualenv
 # Awsebcli
 sudo pip install awsebcli
 
+# Ipython
+sudo apt-get install ipython3
+
 # Django
 sudo pip install Django==1.9.2
 
