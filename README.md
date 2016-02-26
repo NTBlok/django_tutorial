@@ -100,3 +100,20 @@ Play with API using django interactive shell (defaults to use ipython, if instal
     In []: q.question_text = "What's up?"
     In []: q.save()
     In []: Question.objects.all()
+
+
+#### Part 3
+
+Edit the follwing files as directed in https://docs.djangoproject.com/en/1.9/intro/tutorial03/
+
+1) To add more views
+
+    vim polls/views.py
+
+2) Write new views into urls
+
+    vim polls/urls.py
+
+3) Create html templates
+
+    vim polls/templates/polls/index.html
