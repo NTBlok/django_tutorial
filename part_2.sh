@@ -16,3 +16,6 @@ python mysite/manage.py check
 
 # Re-run to create tables in the database by applying all migrations to synchronize changes
 python mysite/manage.py migrate
+
+#### Admin
+python mysite/manage.py createsuperuser

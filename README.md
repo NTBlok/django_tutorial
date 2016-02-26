@@ -74,6 +74,10 @@ Edit the follwing files as directed in https://docs.djangoproject.com/en/1.9/int
 
     vim mysite/settings.py
 
+3) Make app modifiable in the admin site by telling admin that model objects have an admin interface
+
+   vim polls/admin.py
+
 
 Shell commands with comments
 
