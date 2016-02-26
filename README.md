@@ -79,20 +79,20 @@ Shell commands with comments
 
     ./part_2.sh
 
-Play with API using django interactive shell
+Play with API using django interactive shell (uses ipython, if installed)
 
     python manage.py shell
 
-    >>> import django
-    >>> django.setup()
-    >>> from polls.models import Question, Choice
-    >>> Question.objects.all()
-    >>> from django.utils import timezone
-    >>> q = Question(question_text="What's new?", pub_date=timezone.now())
-    >>> q.save()
-    >>> q.id
-    >>> q.question_text
-    >>> q.pub_date
-    >>> q.question_text = "What's up?"
-    >>> q.save()
-    >>> Question.objects.all()
+    In []: import django
+    In []: django.setup()
+    In []: from polls.models import Question, Choice
+    In []: Question.objects.all()
+    In []: from django.utils import timezone
+    In []: q = Question(question_text="What's new?", pub_date=timezone.now())
+    In []: q.save()
+    In []: q.id
+    In []: q.question_text
+    In []: q.pub_date
+    In []: q.question_text = "What's up?"
+    In []: q.save()
+    In []: Question.objects.all()
