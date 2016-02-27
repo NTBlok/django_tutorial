@@ -136,3 +136,7 @@ Edit the following files as directed in https://docs.djangoproject.com/en/1.9/in
 4) To create a results template
 
     vim polls/templates/polls/results.html
+
+5) To update urls
+
+    vim polls/urls.py
