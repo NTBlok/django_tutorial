@@ -118,3 +118,20 @@ Edit the follwing files as directed in https://docs.djangoproject.com/en/1.9/int
 
     vim polls/templates/polls/index.html
     vim polls/templates/polls/detail.html
+
+#### Part 4
+
+Edit the following files as directed in https://docs.djangoproject.com/en/1.9/intro/tutorial04/
+
+1) To update the detail view to add a simple form
+
+    vim polls/templates/polls/detail.html
+
+2) Update the dummy implementation of the vote view to a real version
+3) Implement the results view for when the vote view redirects to results after the user votes on a question
+
+    vim polls/views.py
+
+4) To create a results template
+
+    vim polls/templates/polls/results.html
