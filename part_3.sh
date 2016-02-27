@@ -11,3 +11,4 @@ mkdir polls
 # This is template namespacing (e.g., putting templates inside another dir named for the application) 
 cd polls
 touch index.html
+touch detail.html
