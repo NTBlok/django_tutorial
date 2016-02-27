@@ -128,6 +128,7 @@ Edit the following files as directed in https://docs.djangoproject.com/en/1.9/in
     vim polls/templates/polls/detail.html
 
 2) Update the dummy implementation of the vote view to a real version
+ 
 3) Implement the results view for when the vote view redirects to results after the user votes on a question
 
     vim polls/views.py
