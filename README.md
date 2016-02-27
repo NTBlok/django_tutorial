@@ -117,3 +117,4 @@ Edit the follwing files as directed in https://docs.djangoproject.com/en/1.9/int
 3) Create html templates
 
     vim polls/templates/polls/index.html
+    vim polls/templates/polls/detail.html
