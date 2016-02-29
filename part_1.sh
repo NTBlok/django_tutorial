@@ -4,7 +4,7 @@ django-admin startproject mysite
 
 # Create an app called polls (app = web application within a website)
 cd mysite
-python mysite/ manage.py startapp polls
+python mysite/manage.py startapp polls
 
 # Create URLconf in polls directory to call views
 cd polls

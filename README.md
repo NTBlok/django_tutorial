@@ -74,25 +74,69 @@ Edit the follwing files as directed in https://docs.djangoproject.com/en/1.9/int
 
     vim mysite/settings.py
 
+3) Make app modifiable in the admin site by telling admin that model objects have an admin interface
+
+   vim polls/admin.py
+
 
 Shell commands with comments
 
     ./part_2.sh
 
-Play with API using django interactive shell
+Play with API using django interactive shell (defaults to use ipython, if installed)
 
     python manage.py shell
 
-    >>> import django
-    >>> django.setup()
-    >>> from polls.models import Question, Choice
-    >>> Question.objects.all()
-    >>> from django.utils import timezone
-    >>> q = Question(question_text="What's new?", pub_date=timezone.now())
-    >>> q.save()
-    >>> q.id
-    >>> q.question_text
-    >>> q.pub_date
-    >>> q.question_text = "What's up?"
-    >>> q.save()
-    >>> Question.objects.all()
+    In []: import django
+    In []: django.setup()
+    In []: from polls.models import Question, Choice
+    In []: Question.objects.all()
+    In []: from django.utils import timezone
+    In []: q = Question(question_text="What's new?", pub_date=timezone.now())
+    In []: q.save()
+    In []: q.id
+    In []: q.question_text
+    In []: q.pub_date
+    In []: q.question_text = "What's up?"
+    In []: q.save()
+    In []: Question.objects.all()
+
+
+#### Part 3
+
+Edit the follwing files as directed in https://docs.djangoproject.com/en/1.9/intro/tutorial03/
+
+1) To add more views
+
+    vim polls/views.py
+
+2) Write new views into urls
+
+    vim polls/urls.py
+
+3) Create html templates
+
+    vim polls/templates/polls/index.html
+    vim polls/templates/polls/detail.html
+
+#### Part 4
+
+Edit the following files as directed in https://docs.djangoproject.com/en/1.9/intro/tutorial04/
+
+1) To update the detail view to add a simple form
+
+    vim polls/templates/polls/detail.html
+
+2) Update the dummy implementation of the vote view to a real version
+ 
+3) Implement the results view for when the vote view redirects to results after the user votes on a question
+
+    vim polls/views.py
+
+4) To create a results template
+
+    vim polls/templates/polls/results.html
+
+5) To update urls
+
+    vim polls/urls.py
