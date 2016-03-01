@@ -161,3 +161,7 @@ Edit the following files as directed in https://docs.djangoproject.com/en/1.9/in
 2) Fix the bug uncovered by automated testing
 
     vim polls/models.py
+
+3) Improve the view using the QuerySet API from model Question to filter out bad pub_dates (set as future dates)
+
+    vim polls/views.py
