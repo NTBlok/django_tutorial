@@ -153,3 +153,11 @@ Edit the following files as directed in https://docs.djangoproject.com/en/1.9/in
 #### Part 5 - Automated Testing
 
 Edit the following files as directed in https://docs.djangoproject.com/en/1.9/intro/tutorial05/
+
+1) To create a test
+
+    vim polls/tests.py
+
+2) Fix the bug uncovered by automated testing
+
+    vim polls/models.py
