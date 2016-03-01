@@ -140,3 +140,16 @@ Edit the following files as directed in https://docs.djangoproject.com/en/1.9/in
 5) To update urls
 
     vim polls/urls.py
+
+6) Amend views to use Django's generic views instead
+
+    # Change <question_id> to <pk> because the generic views module expects "pk" to be the abbreviation for the primary key
+    vim polls/urls.py
+    
+    # Overhaul views.py to use the generic.ListView and generic.DetailView of django.views 
+    vim polls/views.py
+
+
+#### Part 5 - Automated Testing
+
+Edit the following files as directed in https://docs.djangoproject.com/en/1.9/intro/tutorial05/
