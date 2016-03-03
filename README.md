@@ -163,5 +163,6 @@ Edit the following files as directed in https://docs.djangoproject.com/en/1.9/in
     vim polls/models.py
 
 3) Improve the view using the QuerySet API from model Question to filter out bad pub_dates (set as future dates)
+   and add a constraint to exclude questions with bad pub_dates (so users can't see them by guessing the right URL)
 
     vim polls/views.py
