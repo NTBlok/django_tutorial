@@ -166,3 +166,5 @@ Edit the following files as directed in https://docs.djangoproject.com/en/1.9/in
    and add a constraint to exclude questions with bad pub_dates (so users can't see them by guessing the right URL)
 
     vim polls/views.py
+
+#### Part 6 - Static File Management
