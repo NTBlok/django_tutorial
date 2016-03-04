@@ -168,3 +168,30 @@ Edit the following files as directed in https://docs.djangoproject.com/en/1.9/in
     vim polls/views.py
 
 #### Part 6 - Static File Management
+
+1) Edit a newly created stylsheet at polls/static/polls/style.css
+
+    vim style.css
+
+2) Edit polls/templates/polls/index.html to load the new stylesheet
+
+    vim index.html
+
+3) Add a reference to a new background image to the stylesheet
+
+    vim style.css
+
+4) In the style.css, to resize the image to cover the whole area
+
+    body {
+        background: white url("images/background.jpg") no-repeat right bottom;
+        background-size: cover;
+        }
+
+5) Or to resize the image to have the area contain the whole image
+
+    body {
+        background: white url("images/background.jpg") no-repeat right bottom;
+        background-size: contain;
+        }
+

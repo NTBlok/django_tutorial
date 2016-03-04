@@ -7,5 +7,5 @@ cd polls
 # Create a style sheet here, refer to it as 'polls/style.css'
 touch style.css
 
-# Create an images directory and upload a background.gif image here
+# Create an images directory and upload a background.gif (or jpg) image here
 mkdir images
