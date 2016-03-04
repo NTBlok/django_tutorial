@@ -169,6 +169,8 @@ Edit the following files as directed in https://docs.djangoproject.com/en/1.9/in
 
 #### Part 6 - Static File Management
 
+Edit the following files as directed in https://docs.djangoproject.com/en/1.9/intro/tutorial06/
+
 1) Edit a newly created stylsheet at polls/static/polls/style.css
 
     vim style.css
