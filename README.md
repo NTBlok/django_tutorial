@@ -197,3 +197,12 @@ Edit the following files as directed in https://docs.djangoproject.com/en/1.9/in
         background-size: contain;
         }
 
+#### Part 7 - Customize Admin Form
+
+Edit the following files as directed in https://docs.djangoproject.com/en/1.9/intro/tutorial07/
+
+1) Edit polls/admin.py
+1.1) Use **admin.site.register()** to reorder fields on the edit form
+1.2) Split the form up into fieldsets
+
+    vim polls/admin.py

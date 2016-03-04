@@ -18,6 +18,11 @@ sudo apt-get install ipython ipython3
 
 # Django
 sudo pip install Django==1.9.2
+# DjangoRestFramework
+sudo pip install djangorestframework
+sudo pip install markdown
+sudo pip install django-filter
+
 
 # Tree
 sudo apt-get install tree
